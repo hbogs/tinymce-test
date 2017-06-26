@@ -1,5 +1,4 @@
 import React from 'react';
-import tinymce from 'tinymce/tinymce';
 
 class RichTextEditor extends React.Component {
 
@@ -7,8 +6,8 @@ class RichTextEditor extends React.Component {
     const {
       id
     } = this.props;
- 
-    tinymce.init({
+
+    window.tinymce.init({
       inline: false,
       selector: `#${id}`
     });

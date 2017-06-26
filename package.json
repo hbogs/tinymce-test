@@ -8,8 +8,7 @@
   },
   "devDependencies": {
     "classnames": "^2.2.5",
-    "react-scripts": "1.0.7",
-    "tinymce": "^4.6.4"
+    "react-scripts": "1.0.7"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -8,13 +8,9 @@ class App extends Component {
     return (
       <div className="App">
 
-        <div className="rte-container">
-          <Rte id="rte-1"/>
-        </div>
-
-        <div className="rte-container">
-          <Rte id="rte-2"/>
-        </div>
+        <Rte id="rte-1"/>
+        <Rte id="rte-2"/>
+        <Rte id="rte-3"/>
 
         <div className="big-content">Content to make page scroll</div>
       </div>
